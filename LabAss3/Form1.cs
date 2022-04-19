@@ -26,9 +26,22 @@ namespace LabAss3
             else Hobby = "Painting";
             if (radioMale.Checked) Status = "Married";
             else Status = "Unmarried";
-            FrmCustomerPreview objPreview = new FrmCustomerPreview();
-            objPreview.SetValue(txtName.Text, txtCountry.Text, Gender, Hobby, Status);
-            objPreview.Show();
+
+            try
+            {
+                CustomerValidation objVal = new CustomerValidation();
+                objVal.CheckCustomerName(txtName.Text);
+
+                FrmCustomerPreview objPreview = new FrmCustomerPreview();
+                objPreview.SetValue(txtName.Text, txtCountry.Text, Gender, Hobby, Status);
+                objPreview.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+
+            
             
         }
     }

@@ -36,12 +36,12 @@
             this.radioFemale = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.chkReading = new System.Windows.Forms.CheckBox();
             this.chkPainting = new System.Windows.Forms.CheckBox();
+            this.chkReading = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioMerried = new System.Windows.Forms.RadioButton();
             this.radioUnmerried = new System.Windows.Forms.RadioButton();
+            this.radioMerried = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -123,16 +123,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // chkReading
-            // 
-            this.chkReading.AutoSize = true;
-            this.chkReading.Location = new System.Drawing.Point(24, 46);
-            this.chkReading.Name = "chkReading";
-            this.chkReading.Size = new System.Drawing.Size(85, 19);
-            this.chkReading.TabIndex = 0;
-            this.chkReading.Text = "Reading";
-            this.chkReading.UseVisualStyleBackColor = true;
-            // 
             // chkPainting
             // 
             this.chkPainting.AutoSize = true;
@@ -142,6 +132,16 @@
             this.chkPainting.TabIndex = 1;
             this.chkPainting.Text = "Painting";
             this.chkPainting.UseVisualStyleBackColor = true;
+            // 
+            // chkReading
+            // 
+            this.chkReading.AutoSize = true;
+            this.chkReading.Location = new System.Drawing.Point(24, 46);
+            this.chkReading.Name = "chkReading";
+            this.chkReading.Size = new System.Drawing.Size(85, 19);
+            this.chkReading.TabIndex = 0;
+            this.chkReading.Text = "Reading";
+            this.chkReading.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -164,17 +164,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
-            // radioMerried
-            // 
-            this.radioMerried.AutoSize = true;
-            this.radioMerried.Location = new System.Drawing.Point(24, 37);
-            this.radioMerried.Name = "radioMerried";
-            this.radioMerried.Size = new System.Drawing.Size(84, 19);
-            this.radioMerried.TabIndex = 0;
-            this.radioMerried.TabStop = true;
-            this.radioMerried.Text = "Merried";
-            this.radioMerried.UseVisualStyleBackColor = true;
-            // 
             // radioUnmerried
             // 
             this.radioUnmerried.AutoSize = true;
@@ -185,6 +174,17 @@
             this.radioUnmerried.TabStop = true;
             this.radioUnmerried.Text = "Unmerried";
             this.radioUnmerried.UseVisualStyleBackColor = true;
+            // 
+            // radioMerried
+            // 
+            this.radioMerried.AutoSize = true;
+            this.radioMerried.Location = new System.Drawing.Point(24, 37);
+            this.radioMerried.Name = "radioMerried";
+            this.radioMerried.Size = new System.Drawing.Size(84, 19);
+            this.radioMerried.TabIndex = 0;
+            this.radioMerried.TabStop = true;
+            this.radioMerried.Text = "Merried";
+            this.radioMerried.UseVisualStyleBackColor = true;
             // 
             // frame1
             // 
@@ -201,6 +201,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frame1";
             this.Text = "Customer Data Entry Screen";
+            this.Load += new System.EventHandler(this.frame1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -40,8 +41,10 @@ namespace LabAss3
             {
                 MessageBox.Show(ex.Message.ToString());
             }
+        }
 
-            
+        private void frame1_Load(object sender, EventArgs e)
+        {
             
         }
     }

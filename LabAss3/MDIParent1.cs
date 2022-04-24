@@ -106,7 +106,7 @@ namespace LabAss3
 
         private void enterCustomerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmCustomerPreview obj = new FrmCustomerPreview();
+            frame1 obj = new frame1();
             obj.MdiParent = this;
             obj.Show();
         }

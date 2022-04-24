@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="ShowListControls.aspx" />
+    <Content Include="ShowTabularDataBound.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="ShowListControls.aspx.designer.cs">
       <DependentUpon>ShowListControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTabularDataBound.aspx.cs">
+      <DependentUpon>ShowTabularDataBound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTabularDataBound.aspx.designer.cs">
+      <DependentUpon>ShowTabularDataBound.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

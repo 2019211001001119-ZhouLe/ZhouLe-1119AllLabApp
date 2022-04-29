@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/ads/adv4.jpg</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is ad4</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/adv5.jpg</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is ad5</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/adv6.jpg</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is ad6</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/adv7.jpg</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is ad7</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/adv8.jpg</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is ad8</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/BannerAd1.gif</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is bannerAd1</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads1</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/BannerAd2.gif</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is bannerAd2</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads1</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/ads/BannerAd3.gif</ImageUrl>
+		<Width>200</Width>
+		<Height>150</Height>
+		<NavigateUrl>http://ad4.com</NavigateUrl>
+		<AlternateText>This is bannerAd3</AlternateText>
+		<Impresstions>25</Impresstions>
+		<Keyword>ads1</Keyword>
+	</Ad>
+	
+</Advertisements>
